@@ -18,7 +18,7 @@ This course aims to strengthen programming fundamentals through hands-on coding 
 ## 🧩 Repository Structure
 
 ```bash
-📂 Course 5/
+📂 Course-5/
 ├── FirstProblem.cpp
 └── ...
 └── README.md
