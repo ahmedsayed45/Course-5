@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void PrintTableHeader(){
-    cout << "\t\t\tMultiplication Table (1 to 10)\n\n";
+    cout << "\n\n\t\t\tMultiplication Table (1 to 10)\n\n";
     for (int i = 1; i <= 10; i++){
         cout << "\t" << i;
     }
