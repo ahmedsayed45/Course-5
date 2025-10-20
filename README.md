@@ -19,9 +19,13 @@ This course aims to strengthen programming fundamentals through hands-on coding 
 
 ```bash
 📂 Course-5/
-├── First-Problem/
+├── 1-First-Problem/
 │   ├── FirstProblem.cpp
 │   └── FirstProblem.exe
 │   └── FirstProblem
+├── 2-Second-Problem/
+│   └── SecondProblem.cpp
+│   └── ...
+├── ...
 └── README.md
 ```

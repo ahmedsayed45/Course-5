@@ -44,7 +44,7 @@ int main(){
 //     } while (Number <= 0);
 //     return Number;
 // }
-// enPrimeNotPrime IsPrime(int Num){
+// enPrimeNotPrime CheckPrime(int Num){
 //     int M = Num / 2;
 //     for (int Counter = 2; Counter <= M; Counter++){
 //         if (Num % Counter == 0)
@@ -52,15 +52,16 @@ int main(){
 //     }
 //     return enPrimeNotPrime::Prime;
 // }
-// void PrintPrimeNumbers(int Num){
-//     cout << "\nPrime numbers from 1 to " << Num << " are : " << endl;
-//     for (int i = 1; i <= Num; i++){
-//         if (IsPrime(i) == enPrimeNotPrime::Prime)
+// void PrintPrimeNumbersFrom1toN(int Number){
+//     cout << "\nPrime numbers from 1 to " << Number;
+//     cout << " are : " << endl;
+//     for (int i = 1; i <= Number; i++){
+//         if (CheckPrime(i) == enPrimeNotPrime::Prime)
 //             cout << i << endl;
 //     }
 // }
 // int main(){
-//     PrintPrimeNumbers(ReadPositiveNumber("Please, enter a positive number : "));
+//     PrintPrimeNumbersFrom1toN(ReadPositiveNumber("Please enter a positive number ? "));
 //     return 0;
 // }
 
