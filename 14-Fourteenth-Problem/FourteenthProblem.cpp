@@ -8,15 +8,15 @@ int ReadPositiveNumber(string Message){
     } while (Number <= 0);
     return Number;
 }
-void PrintNumberPattern(int Number){
-    for (int i = 1; i <= Number; i++){
-        for (int j = 1; j <= i; j++){
-            cout << i;
+void PrintInvertedLetterPattern(int Number){
+    for (int i = Number + 64; i >= 65; i--){
+        for (int j = 65; j <= i; j++){
+            cout << char(i);
         }
         cout << endl;
     }
 }
-int main(){
-    PrintNumberPattern(ReadPositiveNumber("Please, enter a positive number : "));
+int main() {
+    PrintInvertedLetterPattern(ReadPositiveNumber("Please, enter a positive number : "));
     return 0;
 }
