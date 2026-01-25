@@ -82,7 +82,7 @@ string GenerateKey(){
     Key += GenerateWord(enCharType::CapitalLetter, 4);
     return Key;
 }
-void GenerateKeys(int NumberOfKeys){
+void GenerateKeys(short NumberOfKeys){
     for (int i = 0; i < NumberOfKeys; i++){
         cout << "Key [" << i + 1 << "] : " << GenerateKey() << endl;
     }
