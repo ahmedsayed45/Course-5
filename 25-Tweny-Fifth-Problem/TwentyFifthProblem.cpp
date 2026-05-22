@@ -17,14 +17,14 @@ void PrintArray(int Arr[100], int arr_size){
     }
     cout << endl;
 }
-int MaxNumberInArray(int Arr[100], int arr_size){
-    int Max = 0; // or Max = Arr[0]
+int MinimumNumberInArray(int Arr[100], int arr_size){
+    int Min = 100; // or int Min = Arr[0]
     for(int i = 0; i < arr_size; i++){
-        if(Arr[i] > Max){
-            Max = Arr[i];
+        if(Arr[i] < Min){
+            Min = Arr[i];
         }
     }
-    return Max;
+    return Min;
 }
 int main(){
     srand((unsigned)time(NULL));
@@ -32,7 +32,7 @@ int main(){
     FillArrayWithRandomNumbers(Arr, arr_size);
     cout << "Array Elements: ";
     PrintArray(Arr, arr_size);
-    cout << "Max number is : ";
-    cout << MaxNumberInArray(Arr, arr_size);
+    cout << "Min Number is : ";
+    cout << MinimumNumberInArray(Arr, arr_size) << endl;
     return 0;
 }
